@@ -1,0 +1,93 @@
+.buttonGroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--text);
+    background-color: #111;
+    cursor: pointer;
+}
+
+
+.button{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.icon {
+        margin-right: 0.5rem;
+      }
+  
+.text{
+      font-size: 18px;
+      font-weight: 600;
+  }
+
+.button:hover,
+.button:active {
+  background-color: rgb(15, 15, 15);
+  transition: 0.3s;
+}
+
+.button2:hover,
+.button2:active {
+  background-color: rgb(56, 56, 56);
+  transition: 0.3s;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: left;
+    text-align: left;
+    
+
+}
+
+.itemInfo img{
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h3{
+    padding-top: 14px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price{
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+@media screen and(max-width:950px) {
+    .itemInfo img{
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    
+}

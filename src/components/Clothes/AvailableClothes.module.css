@@ -1,0 +1,29 @@
+.clothes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+@media  screen and (max-width:950px) {
+    .clothes{
+        display:grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: auto;
+        gap: 20px;
+        
+    }
+    
+    
+}
+@media  screen and (max-width:770px) {
+    .clothes{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    
+    
+}

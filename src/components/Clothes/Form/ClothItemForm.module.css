@@ -1,0 +1,17 @@
+.button{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgb(15, 15, 15);
+  transition: 0.3s;
+}
